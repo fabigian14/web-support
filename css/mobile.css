@@ -1,0 +1,352 @@
+@media screen and (max-width:600px) {
+    .line {
+        display: inline;
+    }
+
+    /* ====== HERO ====== */
+    .hero {
+        height: 100vh;
+    }
+
+    /* .hero-overlay {
+        background-color: rgba(0, 0, 205, 0.7);
+    } */
+
+    .hero__welcome-abc {
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: var(--orange-color);
+    }
+
+    .hero__subtitle {
+        font-size: 1.5rem;
+    }
+
+    /* ====== HERO ====== */
+
+
+    /* ====== ABOUT-MORE ====== */
+    .about {
+        width: 80%;
+    }
+
+    .about__paragraph--none {
+        display: none;
+    }
+
+    /* ====== ABOUT-MORE ====== */
+
+
+    /* ====== SERVICES ====== */
+    .services {
+        padding: 3rem 0 0 0;
+    }
+
+    .card {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .card__box {
+        width: 100%;
+    }
+
+    .card__box:nth-child(4) {
+        border-bottom: 1px solid #999;
+    }
+
+    .card__container {
+        height: 300px;
+    }
+
+    .card__description {
+        border-bottom: none;
+    }
+
+    /* ====== SERVICES ====== */
+
+
+    /* ====== TRANSMITION ====== */
+
+    .transmition__title {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .transmition__time {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0 1rem;
+    }
+
+
+    .transmition__cards {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .transmition__card {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+
+
+    /* ====== TRANSMITION ====== */
+
+
+    /* ====== TEAM ====== */
+    .team-body {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .team__person {
+        line-height: 1;
+        padding-top: 10px;
+    }
+
+    .team__picture {
+        width: 100%;
+        height: 400px;
+    }
+
+    .team__description {
+        width: 100%;
+        padding: 3rem 1rem;
+
+    }
+
+    .team__text {
+        font-size: .9rem;
+    }
+
+    .team__icons {
+        width: 25px;
+    }
+
+    .team__name {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: var(--base-color);
+    }
+
+    .team__icon-link {
+        border: 1px solid #555;
+    }
+
+    /* ====== TEAM ====== */
+
+
+    /* ====== GALLERY ====== */
+    .portfolio-content {
+        margin-bottom: 0;
+    }
+
+    .gallery-container {
+        width: 100%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 240px);
+        gap: 0;
+    }
+
+    .gallery__item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
+
+    .gallery__item:nth-child(1) {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .gallery__item:nth-child(2) {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .gallery__item:nth-child(3) {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+
+    .gallery__item:nth-child(4) {
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+
+    .gallery__item:nth-child(5) {
+        grid-column: 1 / 4;
+        grid-row: 5 / 6;
+    }
+
+    .gallery__item:nth-child(6) {
+        grid-column: 1 / 4;
+        grid-row: 6 / 7;
+    }
+
+    .gallery__item:nth-child(7) {
+        grid-column: 1 / 4;
+        grid-row: 7 / 8
+    }
+
+    .gallery__item:nth-child(8) {
+        grid-column: 1 / 4;
+        grid-row: 8 / 9;
+    }
+
+    .gallery__item:nth-child(9) {
+        grid-column: 1 / 4;
+        grid-row: 9 / 10;
+    }
+
+    .gallery__icon {
+        border-radius: 0;
+    }
+
+
+    /* ====== GALLERY ====== */
+
+
+    /* ======== SECTION - EVANGELION ======== */
+    .hero--evangelio {
+        height: 520px;
+    }
+
+    .hero__title--evangelio {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .hero-evangelio {
+        font-size: .8rem;
+    }
+
+    .hero-overlay--evangelio {
+        background-image: url(../assets/img/blog-1.webp);
+        background-color: rgba(0, 0, 0, 0.85);
+        background-attachment: initial;
+        background-size: cover;
+    }
+
+    /* ======== SECTION - EVANGELION ======== */
+
+    /* ===== TESTIMONIALS ===== */
+    .slider__img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        object-position: top center;
+    }
+
+    .slider__text {
+        width: 90%;
+    }
+
+    .slider__quote {
+        bottom: 3rem;
+        left: 0;
+    }
+
+    .slider__quote-left {
+        width: 120px;
+        height: 120px;
+        color: var(--orange-color);
+        opacity: .5;
+    }
+
+
+    .slider__title-person {
+        font-size: 1rem;
+    }
+
+    .slider__description-person {
+        font-weight: 500;
+        font-size: .8rem;
+    }
+
+    .slider__paragraph {
+        font-size: .86rem;
+        line-height: 1.5;
+    }
+
+    .l-t {
+        display: none;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+
+
+    /* ===== BLOG ===== */
+    .blog {
+        background-image: url(../assets/img/blog-1.webp);
+        background-color: rgba(0, 0, 0, 0.85);
+        background-attachment: initial;
+        background-size: cover;
+    }
+
+    .blog__body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 1rem;
+    }
+
+    .blog__article {
+        width: 90%;
+        border: 1px solid #555;
+
+    }
+
+    .blog__title {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .blog__description {
+        padding: 1rem .8rem;
+        text-align: left;
+    }
+
+    .blog__text {
+        font-size: .85rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    /* ===== BLOG ===== */
+
+
+    /* ===== CONTACT ===== */
+    .contact__body {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .contact__box {
+        width: 90%;
+        padding: 1.5rem 0;
+    }
+
+    .contact__img {
+        width: 40px;
+        margin: auto;
+    }
+
+    /* ===== CONTACT ===== */
+
+}
